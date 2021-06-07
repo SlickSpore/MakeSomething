@@ -19,18 +19,8 @@ def randomWord_by_letters(string_of_letters,times):
             final+=b[a]
             del b[a]
             
-        #print(final)
+
         invented.append(final)
         final = ""
-        # print(used_words)
+
     return invented
-# parola = input("Inserisci la parola ")
-# parola1 = input("Inserisci Il numero ")
-# a = randomWord_by_letters(parola,parola1)
-# find = input("FIND ")
-# if find=="show":
-#     print(a)
-# for letters in a:
-#     if letters == find:
-#         print(letters)
-        
